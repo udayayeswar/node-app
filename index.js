@@ -184,7 +184,8 @@ app.post('/spec', function(req, res) {
 		lscpu: command_data.items[2].lscpu,
 		meminfo: command_data.items[3].meminfo,
 		dev: "chaitanya chandra (chay@outlook.in)",
-		app_version: app_version
+		app_version: app_version,
+		env: environment
 	})
 })
 
