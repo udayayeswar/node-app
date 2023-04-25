@@ -1,4 +1,4 @@
-@Library('nodejs') _
+@Library('shared-libraries') _
 
 env.RUNNER = "node"
 env.COMPONENT = "node-app"
